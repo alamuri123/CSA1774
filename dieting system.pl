@@ -32,6 +32,6 @@ symptom(amit,fever).
 
     hypothesis(Patient,common_cold) :-
         symptom(Patient,headache),
-        symptom(Patient,sneezing),
+        symptom(Patient,sneezing).
         symptom(Patient,sore_throat),
         symptom(Patient,chills).
